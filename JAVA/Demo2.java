@@ -8,7 +8,10 @@ public class Demo2 {
         int a = number / 100;
         int b = number / 10 % 10;
         int c = number % 10;
-        System.out.printf("百位数为%d,十位数为%d,个位数为%d", a, b, c);
+        // System.out.printf("百位数为%d,十位数为%d,个位数为%d", a, b, c);
+        System.out.println("百位是"+a);
+        System.out.println("十位是"+b);
+        System.out.println("个位是"+c);
 
     }
 }
